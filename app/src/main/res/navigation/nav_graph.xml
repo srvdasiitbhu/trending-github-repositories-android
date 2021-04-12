@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/repo">
+
+    <fragment
+        android:id="@+id/repo"
+        android:name="com.example.githubtrendingrepo.singlerow.SinglerowFragment"
+        android:label="fragment_single_row"
+        tools:layout="@layout/fragment_single_row" />
+
+</navigation>
