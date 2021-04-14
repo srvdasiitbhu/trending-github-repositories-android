@@ -6,8 +6,8 @@
 
 <data>
     <variable
-        name="property"
-        type="com.example.githubtrendingrepo.network.RepoProperty" />
+        name="repo"
+        type="com.example.githubtrendingrepo.domain.RepoProperty" />
 </data>
 
 <androidx.cardview.widget.CardView
@@ -30,7 +30,7 @@
             android:layout_height="80dp"
             android:layout_margin="10dp"
             android:contentDescription="@string/app_name"
-            app:imageUrl="@{property.imgSrcUrl}"
+            app:imageUrl="@{repo.avatar}"
             android:padding="5dp" />
 
         <TextView
@@ -40,7 +40,7 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:layout_toEndOf="@id/avatar"
-            android:text="@{property.author}"
+            android:text="@{repo.author}"
             android:textColor="#000"
             android:textSize="18sp"
             android:textStyle="bold"
@@ -57,7 +57,7 @@
             android:layout_marginTop="20dp"
             android:layout_toEndOf="@id/avatar"
             android:drawablePadding="2dp"
-            android:text="@{property.language}"
+            android:text="@{repo.language}"
             android:layout_marginLeft="10dp"
             android:layout_toRightOf="@id/avatar" />
     </RelativeLayout>

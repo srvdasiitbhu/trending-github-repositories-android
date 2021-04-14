@@ -22,6 +22,7 @@ buildscript {
         classpath "com.android.tools.build:gradle:$version_android_gradle_plugin"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$version_kotlin"
         classpath "android.arch.navigation:navigation-safe-args-gradle-plugin:$version_navigation"
+        classpath "com.android.support:multidex:1.0.3"
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
